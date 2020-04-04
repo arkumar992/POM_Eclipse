@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Ultimatix Test]">
+  <listeners>
+    <listener class-name="extentReportpack.ExtentReportList"/>
+  </listeners>
+  <test thread-count="5" name="Ultimatix(failed)">
+    <classes>
+      <class name="testcasespages.WorklistPageTest">
+        <methods>
+          <include name="verifyEmConcer"/>
+          <include name="setup"/>
+          <include name="verifyGHDD"/>
+          <include name="down"/>
+        </methods>
+      </class> <!-- testcasespages.WorklistPageTest -->
+      <class name="testcasespages.HomepageTest">
+        <methods>
+          <include name="usernameTest"/>
+          <include name="setup"/>
+          <include name="homePagetitlevali"/>
+          <include name="down"/>
+          <include name="searchpageTest"/>
+        </methods>
+      </class> <!-- testcasespages.HomepageTest -->
+      <class name="testcasespages.LoginTest">
+        <methods>
+          <include name="loginpgtitletest"/>
+          <include name="close"/>
+          <include name="setup"/>
+          <include name="loginpg"/>
+        </methods>
+      </class> <!-- testcasespages.LoginTest -->
+    </classes>
+  </test> <!-- Ultimatix(failed) -->
+</suite> <!-- Failed suite [Ultimatix Test] -->

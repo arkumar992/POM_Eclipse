@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Ultimatix Test" duration-ms="317340" started-at="2020-04-03T17:02:18 IST" finished-at="2020-04-03T17:07:35 IST">
+    <groups>
+    </groups>
+    <test name="Ultimatix" duration-ms="317340" started-at="2020-04-03T17:02:18 IST" finished-at="2020-04-03T17:07:35 IST">
+      <class name="testcasespages.WorklistPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcasespages.WorklistPageTest@6c49835d]" name="setup" is-config="true" duration-ms="29659" started-at="2020-04-03T17:06:33 IST" finished-at="2020-04-03T17:07:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyEmConcer()[pri:1, instance:testcasespages.WorklistPageTest@6c49835d]" name="verifyEmConcer" duration-ms="587" started-at="2020-04-03T17:07:03 IST" finished-at="2020-04-03T17:07:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmConcer -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcasespages.WorklistPageTest@6c49835d]" name="down" is-config="true" duration-ms="79" started-at="2020-04-03T17:07:03 IST" finished-at="2020-04-03T17:07:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcasespages.WorklistPageTest@6c49835d]" name="setup" is-config="true" duration-ms="30601" started-at="2020-04-03T17:07:04 IST" finished-at="2020-04-03T17:07:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyGHDD()[pri:2, instance:testcasespages.WorklistPageTest@6c49835d]" name="verifyGHDD" duration-ms="610" started-at="2020-04-03T17:07:34 IST" finished-at="2020-04-03T17:07:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGHDD -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcasespages.WorklistPageTest@6c49835d]" name="down" is-config="true" duration-ms="77" started-at="2020-04-03T17:07:35 IST" finished-at="2020-04-03T17:07:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+      </class> <!-- testcasespages.WorklistPageTest -->
+      <class name="testcasespages.HomepageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcasespages.HomepageTest@5a8806ef]" name="setup" is-config="true" duration-ms="42248" started-at="2020-04-03T17:03:25 IST" finished-at="2020-04-03T17:04:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchpageTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcasespages.HomepageTest@5a8806ef]" name="searchpageTest" duration-ms="342" started-at="2020-04-03T17:04:08 IST" data-provider="getData" finished-at="2020-04-03T17:04:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arun ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumar ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[S r]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchpageTest -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcasespages.HomepageTest@5a8806ef]" name="down" is-config="true" duration-ms="88" started-at="2020-04-03T17:04:08 IST" finished-at="2020-04-03T17:04:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcasespages.HomepageTest@5a8806ef]" name="setup" is-config="true" duration-ms="38445" started-at="2020-04-03T17:04:08 IST" finished-at="2020-04-03T17:04:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchpageTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcasespages.HomepageTest@5a8806ef]" name="searchpageTest" duration-ms="274" started-at="2020-04-03T17:04:47 IST" data-provider="getData" finished-at="2020-04-03T17:04:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anandh ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumar ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[p]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchpageTest -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcasespages.HomepageTest@5a8806ef]" name="down" is-config="true" duration-ms="73" started-at="2020-04-03T17:04:47 IST" finished-at="2020-04-03T17:04:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcasespages.HomepageTest@5a8806ef]" name="setup" is-config="true" duration-ms="38999" started-at="2020-04-03T17:04:47 IST" finished-at="2020-04-03T17:05:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchpageTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcasespages.HomepageTest@5a8806ef]" name="searchpageTest" duration-ms="450" started-at="2020-04-03T17:05:26 IST" data-provider="getData" finished-at="2020-04-03T17:05:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vijay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ kuruvila]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ sekar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchpageTest -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcasespages.HomepageTest@5a8806ef]" name="down" is-config="true" duration-ms="231" started-at="2020-04-03T17:05:26 IST" finished-at="2020-04-03T17:05:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcasespages.HomepageTest@5a8806ef]" name="setup" is-config="true" duration-ms="31614" started-at="2020-04-03T17:05:27 IST" finished-at="2020-04-03T17:05:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="usernameTest()[pri:2, instance:testcasespages.HomepageTest@5a8806ef]" name="usernameTest" duration-ms="110" started-at="2020-04-03T17:05:58 IST" finished-at="2020-04-03T17:05:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usernameTest -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcasespages.HomepageTest@5a8806ef]" name="down" is-config="true" duration-ms="122" started-at="2020-04-03T17:05:58 IST" finished-at="2020-04-03T17:05:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcasespages.HomepageTest@5a8806ef]" name="setup" is-config="true" duration-ms="34711" started-at="2020-04-03T17:05:58 IST" finished-at="2020-04-03T17:06:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="homePagetitlevali()[pri:3, instance:testcasespages.HomepageTest@5a8806ef]" name="homePagetitlevali" duration-ms="33" started-at="2020-04-03T17:06:33 IST" finished-at="2020-04-03T17:06:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePagetitlevali -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcasespages.HomepageTest@5a8806ef]" name="down" is-config="true" duration-ms="76" started-at="2020-04-03T17:06:33 IST" finished-at="2020-04-03T17:06:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+      </class> <!-- testcasespages.HomepageTest -->
+      <class name="testcasespages.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcasespages.LoginTest@9660f4e]" name="setup" is-config="true" duration-ms="10495" started-at="2020-04-03T17:02:18 IST" finished-at="2020-04-03T17:02:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginpg()[pri:1, instance:testcasespages.LoginTest@9660f4e]" name="loginpg" duration-ms="32280" started-at="2020-04-03T17:02:28 IST" finished-at="2020-04-03T17:03:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpg -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testcasespages.LoginTest@9660f4e]" name="close" is-config="true" duration-ms="5214" started-at="2020-04-03T17:03:00 IST" finished-at="2020-04-03T17:03:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcasespages.LoginTest@9660f4e]" name="setup" is-config="true" duration-ms="13107" started-at="2020-04-03T17:03:06 IST" finished-at="2020-04-03T17:03:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginpgtitletest()[pri:2, instance:testcasespages.LoginTest@9660f4e]" name="loginpgtitletest" duration-ms="34" started-at="2020-04-03T17:03:19 IST" finished-at="2020-04-03T17:03:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpgtitletest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testcasespages.LoginTest@9660f4e]" name="close" is-config="true" duration-ms="5539" started-at="2020-04-03T17:03:19 IST" finished-at="2020-04-03T17:03:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcasespages.LoginTest -->
+    </test> <!-- Ultimatix -->
+  </suite> <!-- Ultimatix Test -->
+</testng-results>
