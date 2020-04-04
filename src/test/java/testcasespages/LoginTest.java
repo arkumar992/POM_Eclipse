@@ -11,6 +11,7 @@ import pagespack.Loginpage;
 
 public class LoginTest extends BasePack {
 	
+	//login only
 	Loginpage loginpage;
 	HomePage homePage;
 	public LoginTest()
